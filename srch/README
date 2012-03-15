@@ -1,0 +1,16 @@
+Student implementations of a few functions go in engine.py:
+- build_index
+- parse_query
+- search
+- determine_relevance
+
+See the docstrings for each function to learn about expected input and output.
+
+They may use some functions from helpers.py, mostly uninteresting or too-advanced cleanup routines:
+- cleanup_term
+- load_document
+- split_document
+
+Search.py does the orchestration of the various parts and asks the user for their search query. Run it with argument --grade to get extended debugging output useful for grading.
+
+2012-03-15
